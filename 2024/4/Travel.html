@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Winning</title>
+</head>
+<body>
+<div class="container">
+  <div class="navbar">
+    <img class="logo" src="../../static/pictures/8fc82f8c-d1a3-40b9-a4df-7ff12895bc8c.png">
+    <nav>
+      <ul>
+        <li><a href="">Shopper</a></li>
+        <li><a href="">Holssi</a></li>
+        <li><a href="">Love wins all</a></li>
+      </ul>
+    </nav>
+    <img class="menu-icon"
+         src="../../static/pictures/231010-IU-for-ELLE-x-Gucci-NAVER-Behind-the-Scenes-documents-12.jpeg">
+  </div>
+  <div class="row">
+    <div class="col col1">
+      <h1>The Winning</h1>
+      <p>
+        《The
+        Winning》是韩国创作歌手IU的第六张韩语迷你专辑，由EDAM娱乐企划并于2024年2月20日发行，主打曲为《Shopper》及《孢子(홀씨)》。这是IU继2021年12月发行数位迷你专辑《碎片集》后，时隔近2年1个月再度发行新辑。
+      </p>
+      <button type="button">Listening</button>
+    </div>
+    <div class="col col2">
+      <div class="card card1">
+        <h5>
+          2021年8月9日开始，24Hits榜变更为TOP100榜，即每小时更新并反映最近24小时使用量和最近1小时使用量合算成50：50比重后的数据，而使用者较少的时段（凌晨一时至早上七时KST）则以最近24小时使用量反映</h5>
+      </div>
+      <div class="card card2">
+        <h5>
+          2021年8月9日开始，24Hits榜变更为TOP100榜，即每小时更新并反映最近24小时使用量和最近1小时使用量合算成50：50比重后的数据，而使用者较少的时段（凌晨一时至早上七时KST）则以最近24小时使用量反映</h5>
+      </div>
+      <div class="card card3">
+        <h5>实时榜为24小时榜，即每小时更新并反映最近24小时内使用量。</h5>
+      </div>
+      <div class="card card4">
+        <h5>2022年3月25日开始，iChart新增YouTube Music的计分</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<style>
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../static/pictures/231010-IU-for-ELLE-x-Gucci-NAVER-Behind-the-Scenes-documents-3.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+
+  .navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      width: 50px;
+      cursor: pointer;
+    }
+
+
+    nav {
+      flex: 1;
+      text-align: right;
+
+      ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 60px;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .menu-icon {
+      width: 30px;
+      cursor: pointer;
+      border-radius: 30px;
+      margin-left: 30px;
+    }
+
+  }
+
+  .row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+    .col {
+      flex-basis: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+
+      &.col1 {
+        align-content: start;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      &.col2 {
+        align-content: center;
+        justify-content: start;
+        flex-direction: row;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 100px;
+      }
+
+      p {
+        color: #fff;
+        font-size: 11px;
+        line-height: 15px;
+      }
+
+      button {
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+
+      .card {
+        width: 45%;
+        height: 45%;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+
+        &:hover {
+          transform: translateY(-10px);
+        }
+
+        h5 {
+          color: #fff;
+          text-shadow: 0 0 5px #999;
+        }
+      }
+
+      .card1 {
+        background-image: url(../../static/pictures/64427024gy1hnt0ivc43sj21kq2d41ky.jpg);
+      }
+
+      .card2 {
+        background-image: url(../../static/pictures/64427024gy1hnt0izjxfzj235s23u7wi.jpg);
+      }
+
+      .card3 {
+        background-image: url(../../static/pictures/64427024ly1hnqjskr7f7j211x1kwtl3.jpg);
+      }
+
+      .card4 {
+        background-image: url(../../static/pictures/64427024ly1hnszw9ryeqj21kw11y46q.jpg);
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}
+</style>
+<script setup lang="ts">
+</script>
