@@ -29,7 +29,8 @@
             《The
             Winning》是韩国创作歌手IU的第六张韩语迷你专辑，由EDAM娱乐企划并于2024年2月20日发行，主打曲为《Shopper》及《孢子(홀씨)》。这是IU继2021年12月发行数位迷你专辑《碎片集》后，时隔近2年1个月再度发行新辑。
           </p>
-          <button type="button">Listening</button>
+          <button type="button"
+            onclick="window.open('https://www.melon.com/album/detail.htm?albumId=11404142')">Listening</button>
         </div>
         <div class="col col2">
           <div class="card card1">
@@ -148,6 +149,11 @@ body {
         outline: none;
         margin-top: 30px;
         cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+          width: 300px;
+        }
       }
 
       .card {
@@ -164,6 +170,16 @@ body {
 
         &:hover {
           transform: translateY(-10px);
+          box-shadow:
+           rgba(255, 255, 255, 0.17) 0px -23px 25px 0px inset,
+            rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset,
+            rgba(255, 255, 255,  0.1) 0px -79px 40px 0px inset, 
+            rgba(255, 255, 255,  0.06) 0px 2px 1px,
+            rgba(255, 255, 255,  0.09) 0px 4px 2px, 
+            rgba(255, 255, 255, 0.09) 0px 8px 4px,
+            rgba(255, 255, 255,  0.09) 0px 16px 8px,
+            rgba(255, 255, 255,  0.09) 0px 32px 16px;
+          } 
         }
 
         h5 {
@@ -188,9 +204,6 @@ body {
         background-image: url(../../static/pictures/64427024ly1hnszw9ryeqj21kw11y46q.jpg);
       }
 
-      .card:hover {
-        transform: translateY(-10px);
-      }
     }
   }
 }
