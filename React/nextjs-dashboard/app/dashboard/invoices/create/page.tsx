@@ -6,9 +6,6 @@ export default async function Page() {
     const customers = await fetchCustomers();
     return (
         <main>
-            {customers.map(customer => (
-                <div key={customer.id}>{customer.name}</div>
-            ))}
             <Breadcrumbs
                 breadcrumbs={[
                     {label: 'Invoices', href: '/dashboard/invoices'},
