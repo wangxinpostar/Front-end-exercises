@@ -6,6 +6,7 @@ import {Suspense} from "react";
 import Table from "@/app/ui/invoices/table";
 import {fetchInvoicesPages} from "@/app/lib/data";
 import Pagination from "@/app/ui/invoices/pagination";
+import {Metadata} from "next";
 
 export default async function Page({searchParams,}: {
     searchParams?: {
@@ -34,3 +35,6 @@ export default async function Page({searchParams,}: {
         </div>
     );
 }
+export const metadata: Metadata = {
+    title: 'Invoices',
+};
